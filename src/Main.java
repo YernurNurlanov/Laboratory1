@@ -9,6 +9,7 @@ public class Main {
             case 2 -> Task2.findAvg();
             case 3 -> Task3.isPrime();
             case 4 -> Task4.findFactorial();
+            case 5 -> Task5.findFibonacci();
         }
     }
 }
