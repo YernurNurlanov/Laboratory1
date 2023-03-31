@@ -5,9 +5,8 @@ public class Main {
         System.out.println("What task you want to check?(Write number of task)");
         int choice = sc.nextInt();
         switch (choice) {
-            case 1:
-                Task1.findMin();
-                break;
+            case 1 -> Task1.findMin();
+            case 2 -> Task2.findAvg();
         }
     }
 }
