@@ -7,6 +7,7 @@ public class Main {
         switch (choice) {
             case 1 -> Task1.findMin();
             case 2 -> Task2.findAvg();
+            case 3 -> Task3.isPrime();
         }
     }
 }
