@@ -14,6 +14,7 @@ public class Main {
             case 7 -> Task7.reverseOrder();
             case 8 -> Task8.isDigit();
             case 9 -> Task9.binomialCoefficient();
+            case 10 -> Task10.findGCD();
         }
     }
 }
