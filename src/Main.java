@@ -10,6 +10,7 @@ public class Main {
             case 3 -> Task3.isPrime();
             case 4 -> Task4.findFactorial();
             case 5 -> Task5.findFibonacci();
+            case 6 -> Task6.findPower();
         }
     }
 }
