@@ -2,23 +2,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Scanner scanner = new Scanner(System.in);
-        int n = sc.nextInt();
-        String str = scanner.nextLine();
-        System.out.println(Min(n, str));
-    }
-    public static int Min(int n, String str){
-        int[] N = new int[n];
-        String[] parts = str.split(" ");
-        for (int i = 0; i < n; i++){
-            N[i] = Integer.parseInt(parts[i]);
+        System.out.println("What task you want to check?(Write number of task)");
+        int choice = sc.nextInt();
+        switch (choice) {
+            case 1:
+                Task1.findMin();
+                break;
         }
-        int min = N[0];
-        for (int i = 1; i < n; i++){
-            if (min > N[i]){
-                min = N[i];
-            }
-        }
-        return min;
     }
 }
