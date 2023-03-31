@@ -8,6 +8,7 @@ public class Main {
             case 1 -> Task1.findMin();
             case 2 -> Task2.findAvg();
             case 3 -> Task3.isPrime();
+            case 4 -> Task4.findFactorial();
         }
     }
 }
