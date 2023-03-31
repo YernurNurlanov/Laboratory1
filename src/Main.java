@@ -12,6 +12,7 @@ public class Main {
             case 5 -> Task5.findFibonacci();
             case 6 -> Task6.findPower();
             case 7 -> Task7.reverseOrder();
+            case 8 -> Task8.isDigit();
         }
     }
 }
