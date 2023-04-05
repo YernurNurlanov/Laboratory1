@@ -4,7 +4,7 @@ public class Task3 {
         Scanner sc = new Scanner(System.in);
         // input number
         int n = sc.nextInt();
-        //if counter > 1 (it doesn't take into account that the number is divided by itself) => not prime
+        //if counter > 1 (it doesn't take into account that the number is divided by itself) => not prime.
         if (isPrimeFunc(n, 0, 1) > 1){
             System.out.println("Composite");
         }
