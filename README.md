@@ -3,6 +3,7 @@
 Function with which you can select which task to check
 ## Task1
 *Description:* Print the minimum value of an array
+
 *Explanation:* When `n=0` => return furst element of array. Then find min of `N[n]` and result of recursive execution.
 ```
 public static int findMin(int[] N, int n){
@@ -20,6 +21,7 @@ public static int findMin(int[] N, int n){
 ```
 ## Task2
 *Description:* Print average value of array
+
 *Explanation:* When `n=0` => return furst element of array. Then find sum of `N[n]` and result of recursive execution. Then sum divide by length of array.
 ```
 public static double findAvg(int[] N, int n){
@@ -35,6 +37,7 @@ public static double findAvg(int[] N, int n){
 ```
 ## Task3
 *Description:* Check a number for a prime
+
 *Explanation:* Divider from 1 to `n-1`. If `n%divider==0` => counter++. If `counter>1` number is not prime.
 ```
 public static int isPrime(int n, int counter, int divider) {
@@ -51,6 +54,7 @@ public static int isPrime(int n, int counter, int divider) {
 ```
 ## Task4
 *Description:* Print factorial number
+
 *Explanation:* When `n=1` => return 1. Then find multiplication of `n` and result of recursive execution.
 ```
 public static int findFactorial(int n, int res){
@@ -75,6 +79,7 @@ public static int findFibonacci(int n, int x1, int x2){
 ```
 ## Task6
 *Description:* Print `a^n`
+
 *Explanation:* `a` multiplicates with `a` `n-1` times
 ```
 public static int findPower(int a, int n, int res) {
@@ -87,6 +92,7 @@ public static int findPower(int a, int n, int res) {
 ```
 ## Task7
 *Description:* Print reverse array
+
 *Explanation:* elements of array inputs `n` times. Because of reverse execution elements of array outputs in reverse order.
 ```
 public static void reverseOrder(int num) {
@@ -103,6 +109,7 @@ public static void reverseOrder(int num) {
 ```
 ## Task8
 *Description:* Check whether “s” is all consists of digit
+
 *Explanation:* If element of string is not digit `counter++`. If `counter>1` prints `No`.
 ```
 public static int isDigit(char[] arr, int length, int counter){
@@ -120,6 +127,7 @@ public static int isDigit(char[] arr, int length, int counter){
 ```
 ## Task9
 *Description:* Print binomial coefficient
+
 *Explanation:* Finds binomial coefficient by formula `n!/(k!*(n-k)!)`. Factorial of numbers will be found by the second function.
 ```
 public static double binomialCoefficient(int n, int k){
@@ -135,6 +143,7 @@ public static double findFactorialFunc(int n, double res){
 ```
 ## Task10
 *Description:* Find GCD.
+
 *Explanation:* Compute GCD by Euclidean Algorithm.
 ```
 public static int findGCD(int a, int b){
